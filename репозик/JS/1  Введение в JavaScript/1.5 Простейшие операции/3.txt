@@ -1,0 +1,5 @@
+function testSum(a, b) {
+    var x;
+    // Тут нужно написать решение
+    return a + b;
+}

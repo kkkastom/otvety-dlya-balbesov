@@ -1,0 +1,12 @@
+function testArray(a, b) {
+    var x=a.concat(b)
+     x=x.split("")
+    x.unshift("Иванов")
+    x=x.reverse()
+    x=x.join("")
+    return x
+}
+
+
+
+

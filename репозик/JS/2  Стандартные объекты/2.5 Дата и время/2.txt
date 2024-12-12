@@ -1,0 +1,10 @@
+function testDateTime(a, b) {
+   let x = new Date(a);
+    let y = new Date(b);
+    let rsl = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+    if(x > y) {
+    return rsl[x.getDay()];
+    } else {
+        return rsl[y.getDay()];
+    }
+}

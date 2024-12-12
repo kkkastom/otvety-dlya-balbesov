@@ -1,0 +1,1 @@
+function testMath(a, b, c) { var x=c*Math.PI/180; S =1/2*a*b*Math.sin(x); return S; }

@@ -1,0 +1,4 @@
+function testStr(str, n) {
+    x=str.charAt(n - 1);
+    return x;
+}

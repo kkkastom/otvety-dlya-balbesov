@@ -1,0 +1,8 @@
+function testArray(a, b) {
+    let x = 0;
+    let c = a.concat(b);
+    for(i = c.length - 1;i>=0;i--){
+        x=x+c[i];
+    }
+    return x;// Тут нужно написать решение
+}
